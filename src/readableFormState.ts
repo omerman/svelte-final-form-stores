@@ -1,6 +1,5 @@
 import type { FormApi, FormState, FormSubscription } from "final-form";
 import { writable, Readable } from "svelte/store";
-// @ts-ignore
 import { getFullFormSubscription } from "./util/getFullFormSubscription";
 
 export const readableFormState = <T>(
