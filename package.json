@@ -2,6 +2,7 @@
   "name": "svelte-final-form-stores",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -cw",
