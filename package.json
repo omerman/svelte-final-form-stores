@@ -1,0 +1,24 @@
+{
+  "name": "svelte-final-form-stores",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -cw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:omerman/svelte-final-form-stores.git",
+  "author": "Omer Prizner <omer.prizner@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.1.0",
+    "rollup": "^2.35.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "final-form": "^4.20.1",
+    "svelte": "^3.31.0"
+  }
+}
